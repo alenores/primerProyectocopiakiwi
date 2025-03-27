@@ -1,0 +1,27 @@
+{
+  "name": "Restonline - Pedí comida online sin comisiones",
+  "short_name": "Restonline",
+  "description": "Pedí comida online sin comisiones, reservá mesas y descubrí eventos en los mejores restaurantes.",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#1976D2",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "es-AR",
+  "categories": ["food", "business", "lifestyle"]
+}

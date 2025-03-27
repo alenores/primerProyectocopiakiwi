@@ -1,0 +1,46 @@
+// Color Variables
+$primary: #4DBA87;  // Verde Vue.js
+$secondary: #34495E; // Azul oscuro
+$accent: #42B983;   // Verde claro
+$error: #FF5252;    // Rojo
+$background: #F5F7FA; // Gris claro
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// Transitions
+$transition-fast: 0.2s;
+$transition-normal: 0.3s;
+$transition-slow: 0.4s;
+
+// Shadows
+$shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+$shadow-md: 0 4px 8px rgba(0,0,0,0.1);
+$shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
+
+// Typography
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+// Z-index
+$z-index-drawer: 1000;
+$z-index-navbar: 1100;
+$z-index-modal: 1200;
+$z-index-tooltip: 1300;
