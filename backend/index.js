@@ -6,15 +6,25 @@ import cookieParser from 'cookie-parser';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import path from 'path';
+import dotenv from 'dotenv';
+
+// Cargar variables de entorno
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+dotenv.config({ path: path.join(__dirname, '.env') });
+
+// Verificar variables de entorno
+console.log('Variables de entorno:', {
+  MONGO_URI: process.env.MONGO_URI,
+  PORT: process.env.PORT,
+  NODE_ENV: process.env.NODE_ENV
+});
 
 // Rutas
 import authRoutes from './routes/auth.js';
 import businessRoutes from './routes/businesses.js';
 import userRoutes from './routes/users.js';
 import roleRoutes from './routes/roles.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const app = express();
 

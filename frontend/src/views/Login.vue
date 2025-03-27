@@ -67,7 +67,7 @@ export default {
             email: this.email,
             password: this.password
           })
-          this.$router.push('/dashboard')
+          this.$router.push('/')
         } catch (error) {
           this.$toast.error(error)
         } finally {

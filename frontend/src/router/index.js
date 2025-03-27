@@ -17,9 +17,13 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Dashboard',
+    name: 'Home',
     component: () => import('../views/Dashboard.vue'),
     meta: { requiresAuth: true }
+  },
+  {
+    path: '/dashboard',
+    redirect: '/'
   },
   {
     path: '/profile',
